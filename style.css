@@ -98,4 +98,23 @@ li {
   height: 6rem;
   max-height: 6rem;
   margin-top: 1rem;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgb(167, 167, 167);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #444;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(68, 68, 68, 0.5);
 }
