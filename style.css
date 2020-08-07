@@ -99,6 +99,7 @@ li {
   max-height: 6rem;
   margin-top: 1rem;
   overflow-y: auto;
+  white-space: break-spaces;
 }
 
 ::-webkit-scrollbar {
